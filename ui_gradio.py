@@ -14,7 +14,7 @@ server_params = StdioServerParameters(
     args=['./travel_server.py']
 )
 
-# Inizializza la memoria per la chat history
+# Chat memory
 memory = ChatMessageHistory()
 
 # Chat with agent in the UI
